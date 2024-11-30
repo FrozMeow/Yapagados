@@ -14,18 +14,15 @@ from time import sleep
 from datetime import datetime, date
 import codecs
 
-# Fungsi untuk mendapatkan waktu saat ini dalam format yang diinginkan
 from datetime import datetime
 
 def waktu():
-    # Mendapatkan waktu saat ini dalam format yang diinginkan
+    
     return datetime.now().strftime("%b %d %Y %H:%M:%S")
 
 
-# Daftar negara
 countries = ['Indonesia', 'Amerika Serikat', 'Inggris', 'Perancis', 'Jepang', 'Kanada', 'Australia']
 
-# Memilih negara secara acak
 random_country = random.choice(countries)
 
 
@@ -40,6 +37,7 @@ def country():
         "Canada": "CA",
         "Australia": "AU",
         "Indonesia": "INA",
+	"China": "CH",
         # Tambahkan negara lain di sini sesuai kebutuhan
     }
 
@@ -98,8 +96,8 @@ def menu():
 \033[36m                 ╚═╝  ╩  ╩═╝  ╩═╝   ╩   ╚═╝  ╩ ╩   ╩
 \033[32m           ╚╦═══════════════════════════════════════════╦╝
 \033[32m       ╔════╩═══════════════════════════════════════════╩════╗
-\033[32m       ║             WELCOME TO SILLY CAT C2 API🔥           ║
-\033[32m       ║	     • Silly Cat & Bill & Cikoo •            ║
+\033[32m                       WELCOME TO SILLY CAT C2 API🔥                     
+\033[32m       	     
 \033[32m       ╚═════════════════════════════════════════════════════╝
 
 \033[32m          ╔═══════════════════════════════════════════════╗
